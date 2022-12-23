@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+/* Styling for the menu */
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    border-right: 1px solid rgb(218, 203, 203);
+}
+
+.menu-section h1 {
+    margin-left: 1rem;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+.menu-icons {
+    display: flex;
+    width: 196px;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.menu-icons:hover {
+    background-color: rgb(233, 240, 241);
+}
+
+.menu-icons:last-child {
+    margin-bottom: 0;
+}
+
+.menu-icons h3 {
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.menu-icons i {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+/* .fa-brands {
+    color: white;
+   background-color: bla;
+} */
+
+/* Styling for the post section 468*/
+
+.post-section {
+    width: 100%;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story-container {
+    width: 468px;
+    height: 110px;
+    margin-top: 2rem;
+    background-color: white ;
+    border: 2px solid rgb(233, 240, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .3); */
+}
+
+.story-container .story {
+    background-color: black;
+    border: 1px solid black;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+.user-name {
+    display: flex;
+    width: 468px;
+    height: 60px;
+    border: 2px solid rgb(233, 240, 241);
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.user-name img, .profile-container img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.8rem;
+    border-radius: 50%;
+}
+
+.user-name h5 {
+    margin-left: 0.8rem;
+}
+
+.img-content {
+    width: 468px;
+    border: 2px solid rgb(233, 240, 241);
+    height: 587px;
+    background: url("post-pic.jpeg");
+    background-size: cover;
+
+}
+
+.text {
+    width: 468px;
+    border: 2px solid rgb(233, 240, 241);
+    height:13rem;
+}
+
+.text h5 {
+    margin-left: 1rem;
+}
+
+.text small {
+    display: block;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    color: rgb(180, 198, 201);
+}
+
+.like-comment-share i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.like-comment-share:first-child {
+    margin-left: 1rem;
+} 
+
+.fa-comment{
+    margin-left: 1rem;
+}
+
+.fa-bookmark {
+    margin-left: 21rem;
+    
+}
+
+.addcomment{
+    display: flex;
+    align-items: center;
+    width: 468px;
+    height: 3rem;
+    border-top: 2px solid rgb(233, 240, 241);
+    
+}
+
+.addcomment i {
+    font-size: 1.5rem; 
+    margin-left: 1rem;
+}
+
+.comment {
+    margin-left: 1rem;
+    color: rgb(180, 198, 201);
+}
+
+.post {
+    margin-left: 17rem;
+    color: cyan;
+}
+
+/* styling for the user section */
+
+/* the profile imager for the user section is styled in the post section ln104 */
+
+/* you can give the image of the suggestion for you a different 
+class name to style is different form the uers profile  */
+
+.user-section {
+    width: 350px;
+    height: 15rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: inherit;
+
+}
+
+.profile-name {
+    margin-left: 0.8rem;
+}
+
+.profile-name h5 {
+    margin: 0;
+}
+
+.profile-name small {
+    color: rgb(180, 198, 201);
+    font-size: 0.7rem;
+}
+
+.profile-container a {
+    margin-left: 8rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: blue;
+    cursor: pointer;
+}
+
+.profile-container .switch {
+    margin-left: 6.9rem;
+}
+
+.profile-container a:hover {
+    color: black;
+}
+
+.suggest-container {
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: inherit;
+}
+
+.suggest-container h5 {
+    margin-left: 0.8rem;
+    color: rgb(180, 198, 201);
+    
+}
+
+.suggest-container a {
+    margin-left: 7.7rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.suggest-container a:hover {
+    color: rgb(180, 198, 201);
+}
+
+.profile-container .suggest-photo {
+    width: 2rem;
+    height: 2rem;
+}
